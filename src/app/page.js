@@ -6,7 +6,7 @@ import { useUTM } from "@/hooks/useUTM";
 import LimitedOffer from "@/app/components/LimitedOffer.js";
 import Product from "@/app/components/Product.js";
 import Testimonial from "@/app/components/Testimonial.js";
-import BenefitsAccordion from "@/app/components/BenefitsAccordion.js";
+import Questions from "@/app/components/Questions.js";
 import BeforeAfter from "@/app/components/BeforeAfter.js";
 
 // PÁGINA PRINCIPAL
@@ -14,9 +14,9 @@ export default function MinoxidilPage() {
   const utmParams = useUTM();
 
   const products = [
-    { name: "Minoxidil 5% - Frasco 60ml", price: 149.9, discountedPrice: 79.9, image: "/img/minoxidil.jpg" },
-    { name: "Minoxidil 5% - 2x Frascos de 60ml", price: 249.9, discountedPrice: 129.9, image: "/img/minoxidil-two.jpg" },
-    { name: "Kit Minoxidil 5% 3x60ml + Dermaroller", price: 299.9, discountedPrice: 199.9, image: "/img/minoxidil-derma.jpg" },
+    { name: "Minoxidil 5% original- Frasco 60ml", price: 149.9, discountedPrice: 79.9, image: "/img/minoxidil.jpg" },
+    { name: "Minoxidil 5% original - 2x Frascos de 60ml", price: 249.9, discountedPrice: 129.9, image: "/img/minoxidil-two.jpg" },
+    { name: "Kit Minoxidil 5% 3x60ml original + Dermaroller", price: 299.9, discountedPrice: 199.9, image: "/img/minoxidil-derma.jpg" },
   ];
 
   const testimonials = [
@@ -94,8 +94,8 @@ export default function MinoxidilPage() {
             </div>
           </section>
 
-          {/* Seção Accordion de Benefícios */}
-          <BenefitsAccordion />
+          {/* Seção Dúvidas frequentes */}
+          <Questions />
 
           {/* Footer */}
           <footer className="w-full text-center text-sm text-blue-700 py-8 border-t border-blue-200">

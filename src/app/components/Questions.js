@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function BenefitsAccordion() {
+export default function Questions() {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const faqItems = [
