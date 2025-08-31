@@ -67,7 +67,7 @@ export default function MinoxidilPage() {
             description="Veja o impacto real do Minoxidil em nossos clientes."
             items={[
               { image: "/img/two-mounth.jpg", caption: "Com 2 meses de uso" },
-              { image: "/img/teste.jpg", caption: "Com 6 meses de uso"},
+              { image: "/img/six-mounth.jpg", caption: "Com 6 meses de uso"},
               { image: "/img/twelve-mounth.jpg", caption: "Com 1 ano de uso" },
             ]}
           />
