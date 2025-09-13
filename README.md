@@ -1,6 +1,6 @@
 # Projeto Landing Page - Minoxidil
 
-Landing page criada como teste técnico para vaga de Desenvolvedor Frontend Júnior na Six.
+Landing page criada com Next.js e Tailwind CSS.
 
 ---
 
